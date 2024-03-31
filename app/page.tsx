@@ -1,95 +1,85 @@
-import Image from "next/image";
-import styles from "./page.module.css";
+import { Camera, Code, Cpu, LayoutPanelLeft, Minus } from "lucide-react";
+
+const BASE_CALSS = "about";
 
 export default function Home() {
   return (
-    <main className={styles.main}>
-      <div className={styles.description}>
-        <p>
-          Get started by editing&nbsp;
-          <code className={styles.code}>app/page.tsx</code>
-        </p>
-        <div>
-          <a
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{" "}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className={styles.vercelLogo}
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
+    <div className={`${BASE_CALSS} fade-in-element`}>
+      <h1>About</h1>
+      <div className="description">
+        I'm{" "}
+        <b>
+          a Software engineer with 3+ years of experience and Photographer with
+          5+ years of experience{" "}
+        </b>
+        , <br />
+        who focuses on Frontend with <b>Next JS</b> and <b>TypeScript</b> now.{" "}
+        <br />
+        With experience running a photography studio and developing embedded
+        middleware for mass production, <br />I have a high understanding of{" "}
+        <b>
+          strong visualization, user-friendly development, and analysis of data.
+        </b>
+        <br />
+        Dedicated to learning web development for a year, <br />I invested my
+        time in acquiring the skills needed and successfully matched my career
+        with web development
+        <br />
+        <b> Strong Point </b>"Fast understanding of new project code" ,
+        "Communication Skills with UX/UI and backend developer"
+      </div>
+      <h2>What I Do!</h2>
+      <div className={`${BASE_CALSS}_wrap`}>
+        <div className={`${BASE_CALSS}_wrap_card web`}>
+          <div className="code">
+            <Code size={30} />
+          </div>
+          <div className={`${BASE_CALSS}_wrap_card_info`}>
+            <h4>Web Development</h4>
+            <p>
+              Dynamic and skilled Web Developer in designing and developing
+              responsive websites and web applications.
+            </p>
+          </div>
+        </div>
+        <div className={`${BASE_CALSS}_wrap_card board`}>
+          <div className="cpu">
+            <Cpu size={30} />
+          </div>
+          <div className={`${BASE_CALSS}_wrap_card_info`}>
+            <h4>Embedded Development</h4>
+            <p>
+              Dedicated Embedded C++ Developer with experience implementing
+              embedded middleware software.
+            </p>
+          </div>
+        </div>
+        <div className={`${BASE_CALSS}_wrap_card photo`}>
+          <div className="camera">
+            <Camera size={30} />
+          </div>
+          <div className={`${BASE_CALSS}_wrap_card_info`}>
+            <h4>Photography</h4>
+            <p>
+              A portrait photographer is a professional who specializes in
+              capturing images of individuals or groups, often focusing on their
+              facial expressions, emotions, and personalities.
+            </p>
+          </div>
+        </div>
+        <div className={`${BASE_CALSS}_wrap_card uxui`}>
+          <div className="ux">
+            <LayoutPanelLeft size={30} />
+          </div>
+          <div className={`${BASE_CALSS}_wrap_card_info`}>
+            <h4>UX/UI Design</h4>
+            <p>
+              As a self-taught UX/UI designer, I bring a modern blend of passion
+              and visually appealing user experiences.
+            </p>
+          </div>
         </div>
       </div>
-
-      <div className={styles.center}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-      </div>
-
-      <div className={styles.grid}>
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Docs <span>-&gt;</span>
-          </h2>
-          <p>Find in-depth information about Next.js features and API.</p>
-        </a>
-
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Learn <span>-&gt;</span>
-          </h2>
-          <p>Learn about Next.js in an interactive course with&nbsp;quizzes!</p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Templates <span>-&gt;</span>
-          </h2>
-          <p>Explore starter templates for Next.js.</p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Deploy <span>-&gt;</span>
-          </h2>
-          <p>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
-      </div>
-    </main>
+    </div>
   );
 }
