@@ -418,3 +418,94 @@ button:hover {
     background-color: white;
   }
 }
+
+@media (max-width: 480px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  html,
+  body {
+    font-size: 12px;
+    min-width: 325px;
+  }
+
+  .resume {
+    margin-top: 1rem;
+    padding: 2rem;
+    border-radius: 10px;
+    background-color: white;
+    &_wrap {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      &_card {
+        width: 100%;
+      }
+    }
+    &_skills {
+      h2 {
+        margin-bottom: 1rem;
+      }
+      &_list {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+        div {
+          display: flex;
+          flex-wrap: wrap;
+          gap: 0.5rem;
+          align-items: center;
+          h4 {
+            padding-right: 1rem;
+          }
+          label {
+            padding: 0.5rem 1rem;
+            border-radius: 10px;
+            background-color: $light-gray;
+            font-size: 0.8rem;
+          }
+        }
+        div:nth-child(1),
+        div:nth-child(2) {
+          label:nth-child(2),
+          label:nth-child(3),
+          label:nth-child(4) {
+            background-image: linear-gradient(
+              white,
+              $light-pink,
+              $light-purple
+            );
+            color: $primary-color;
+            font-weight: 500;
+          }
+        }
+        div:nth-child(3) {
+          label:nth-child(2) {
+            background-image: linear-gradient(
+              white,
+              $light-pink,
+              $light-purple
+            );
+            color: $primary-color;
+            font-weight: 500;
+          }
+        }
+        div:nth-child(5) {
+          label:nth-child(2),
+          label:nth-child(3) {
+            background-image: linear-gradient(
+              white,
+              $light-pink,
+              $light-purple
+            );
+            color: $primary-color;
+            font-weight: 500;
+          }
+        }
+      }
+    }
+  }
+}

@@ -48,3 +48,13 @@
     justify-content: center;
   }
 }
+
+@media (max-width: 480px) {
+  .header {
+    &_links {
+      gap: 0.5rem;
+
+      padding: 1rem;
+    }
+  }
+}
