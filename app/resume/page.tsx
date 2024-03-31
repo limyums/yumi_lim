@@ -17,12 +17,12 @@ export default function Resume() {
           <div className={`${BASE_CALSS}_wrap_card_info`}>
             <label>2023 - Present</label>
             <p>Web Application Development Diploma </p>
-            <label>Vancouver, Canada</label>
+            <label>Cornerstone International College, Vancouver, Canada</label>
           </div>
           <div className={`${BASE_CALSS}_wrap_card_info`}>
             <label>2008 - 2013</label>
             <p>Bachelor’s degree in Computer Science</p>
-            <label>Seoul, Korea</label>
+            <label>Koomin University Seoul, Korea</label>
           </div>
         </div>
 
@@ -59,7 +59,7 @@ export default function Resume() {
               Engineer
             </p>
             <label>
-              - C++, Orsay Platform, Tizen Platfomr
+              - C++, Orsay Platform, Tizen Platform
               <br />
               - Middleware Development Bluetooth HID Profile in Smart TV
               <br />- UI Development Bluetooth HID Profile in Smart TV
@@ -99,7 +99,6 @@ export default function Resume() {
             <label>AWS EC2</label>
             <label>AWS S3</label>
             <label>Github Action</label>
-            <label>postegreSQL</label>
           </div>
           <div>
             <h4> Graphic Environments</h4>
