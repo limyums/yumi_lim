@@ -7,16 +7,16 @@ export default function Home() {
     <div className={`${BASE_CALSS} fade-in-element`}>
       <h1>About</h1>
       <div className="description">
-        I'm{" "}
+        I'm
         <b>
           a Software engineer with 3+ years of experience and Photographer with
-          5+ years of experience{" "}
+          5+ years of experience
         </b>
         , <br />
-        who focuses on Frontend with <b>Next JS</b> and <b>TypeScript</b> now.{" "}
+        who focuses on Frontend with <b>Next JS</b> and <b>TypeScript</b> now.
         <br />
         With experience running a photography studio and developing embedded
-        middleware for mass production, <br />I have a high understanding of{" "}
+        middleware for mass production, <br />I have a high understanding of
         <b>
           strong visualization, user-friendly development, and analysis of data.
         </b>
