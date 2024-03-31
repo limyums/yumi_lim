@@ -7,7 +7,7 @@ export default function Home() {
     <div className={`${BASE_CALSS} fade-in-element`}>
       <h1>About</h1>
       <div className="description">
-        I'm
+        I am{" "}
         <b>
           a Software engineer with 3+ years of experience and Photographer with
           5+ years of experience
@@ -16,7 +16,7 @@ export default function Home() {
         who focuses on Frontend with <b>Next JS</b> and <b>TypeScript</b> now.
         <br />
         With experience running a photography studio and developing embedded
-        middleware for mass production, <br />I have a high understanding of
+        middleware for mass production, <br />I have a high understanding of{" "}
         <b>
           strong visualization, user-friendly development, and analysis of data.
         </b>
@@ -25,8 +25,8 @@ export default function Home() {
         time in acquiring the skills needed and successfully matched my career
         with web development
         <br />
-        <b> Strong Point </b>"Fast understanding of new project code" ,
-        "Communication Skills with UX/UI and backend developer"
+        <b> Strong Point </b>Fast understanding of new project code ,
+        Communication Skills with UX/UI and backend developer
       </div>
       <h2>What I Do!</h2>
       <div className={`${BASE_CALSS}_wrap`}>
