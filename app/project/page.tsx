@@ -10,7 +10,7 @@ export default function Project() {
       <div className={`${BASE_CALSS}_wrap`}>
         <li className={`${BASE_CALSS}_wrap_card`}>
           <div>
-            <a target="https://mry-ciccc.me">
+            <a target="_blank" href="https://mry-ciccc.me">
               <Image
                 src="/assets/mry.png"
                 alt="photography website"
