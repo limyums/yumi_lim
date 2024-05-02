@@ -29,6 +29,14 @@ export default function Project() {
                 Git Link
               </a>
             </div>
+            <div>
+              <a
+                target="_blank"
+                href="https://youtu.be/mbSkUSxUYb0?si=tJXMon8iEdMooHtP"
+              >
+                Video
+              </a>
+            </div>
             Next.js, SCSS, Nest.js, TypeScript, PostegreSQL, AWS
           </label>
         </li>
@@ -60,10 +68,7 @@ export default function Project() {
         </li>
         <li className={`${BASE_CALSS}_wrap_card`}>
           <div>
-            <a
-              target="_blank"
-              href="https://main.d3m4pomxarfguy.amplifyapp.com/"
-            >
+            <a target="_blank" href="https://joodam.vercel.app/">
               <Image
                 src="/assets/restaurant.png"
                 alt="photography website"
