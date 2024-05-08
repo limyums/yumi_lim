@@ -167,7 +167,8 @@ button:hover {
     }
     .experience {
       div:nth-child(2),
-      div:nth-child(4) {
+      div:nth-child(4),
+      div:nth-child(6) {
         background-color: $mid-pink;
       }
       div:nth-child(3),

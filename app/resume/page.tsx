@@ -60,9 +60,10 @@ export default function Resume() {
             <p>Ubion – Web Development & Management Team / Web Developer</p>
             <label>
               - ASP.Net, MS SQL, Javascript, Jquery, Bootstrap
-              <br />
-              - Develop landschool Social Learning Service front-end
-              <br />- Maintenance Web Site
+              <br />- Develop a social learning system front-end based on the
+              Alfresco server and improve the company’s E-learning system by
+              implementing architect database user-friendly layout for quality
+              improvement
             </label>
           </div>
           <div className={`${BASE_CALSS}_wrap_card_info`}>
@@ -72,13 +73,25 @@ export default function Resume() {
               Engineer
             </p>
             <label>
-              - C++, Orsay Platform, Tizen Platform
+              - C++, Orsay Platform, Tizen Platform, Linux
               <br />
-              - Middleware Development Bluetooth HID Profile in Smart TV
-              <br />- UI Development Bluetooth HID Profile in Smart TV
+              - Implementing Bluetooth Standard and Customizing HID Profile and
+              Bluetooth Power on by improving access efficiency
+              <br />- Improving UI Application Development of Bluetooth Setup by
+              shortening unnecessary flows
               <br />
-              - Development Bluetooth Power on
-              <br />- Development Android Media Test Application in Google TV
+            </label>
+          </div>
+          <div className={`${BASE_CALSS}_wrap_card_info`}>
+            <label>2012. 06 - 2012. 08</label>
+            <p>
+              Samsung Electronics - VD department Platform S/W group / Software
+              Engineer Internship
+            </p>
+            <label>
+              - C++, Google Platform, Linux
+              <br />- Development Android Multi Media Test Application in Google
+              TV by reducing test time
             </label>
           </div>
         </div>
