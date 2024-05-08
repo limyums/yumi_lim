@@ -43,8 +43,21 @@ export default function Resume() {
             </label>
           </div>
           <div className={`${BASE_CALSS}_wrap_card_info`}>
-            <label>2015. 05 - 10</label>
-            <p>Ubion – Web Development & Management Team</p>
+            <label>2016. 02 - 2016. 08</label>
+            <p>Hyundai Glovis Russia - IT Team / IT Manager</p>
+            <label>
+              - Provide guidance, and support to team members, fostering
+              collaboration and ensuring that projects are completed on time
+              <br />
+              - Build a new product pipeline, enhanced company customs website
+              with outsourcing company
+              <br />- As a Headquarters Communications Manager, Applying the new
+              system of the headquarters to the Russia branch
+            </label>
+          </div>
+          <div className={`${BASE_CALSS}_wrap_card_info`}>
+            <label>2015. 05 - 2015. 10</label>
+            <p>Ubion – Web Development & Management Team / Web Developer</p>
             <label>
               - ASP.Net, MS SQL, Javascript, Jquery, Bootstrap
               <br />
